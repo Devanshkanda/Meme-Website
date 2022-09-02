@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Website</title>
+   
+</head>
+<body>
+    
+    <h1>A website to gather some Meme's</h1>
+    <p>Here Is your Meme. This will Refresh in Every 30 seconds</p>
+    <p><img src="{{meme_pic}}" alt="meme image"></p>
+    <p>Current Subreddit : {{subreddit}}</p>
+
+    <button type="button" onclick="load()"> NEW MEME </button>
+    <script>
+
+        function load()
+        {
+            document.location.reload();
+        }
+    </script>
+</body>
+</html>
+
+<!-- css part-->
+<style>
+    body{
+        background-color: black;
+        text-align: center;
+    }
+
+    h1{
+        color: white;
+    }
+
+    p{
+        color: white;
+        font-size: 40px;
+    }
+
+    button{
+        text-align: right;
+        margin-top: 40px;
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+</style>
