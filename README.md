@@ -8,4 +8,5 @@ Windows : pip install Flask
 
 
 RUN COMMAND TO INSTALL NECESSARY REQUIREMENT LIBRARIES
+
 pip install -r requirements.txt
